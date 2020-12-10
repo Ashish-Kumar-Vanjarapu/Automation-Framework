@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Locators.dataproperties.TestCase_1_ValidEmailidandPassword">
+      <class name="POM.TestCase_6_EmptyEmailidandPassword">
         <methods>
-          <include name="Setup"/>
-          <include name="ValidEmailandPassword"/>
+          <include name="EmptyEmailidandPassword"/>
           <include name="TearDown"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- TestNG.Locators.dataproperties.TestCase_1_ValidEmailidandPassword -->
+      </class> <!-- POM.TestCase_6_EmptyEmailidandPassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

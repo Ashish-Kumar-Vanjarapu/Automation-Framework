@@ -37,7 +37,7 @@ public class TestCase_1_ValidEmailidandPassword {
 
 		// Enter valid Email Address in Email-Address textbox
 
-		driver.findElement(By.cssSelector("#reg_email")).sendKeys("ashu17@yopmail.com");
+		driver.findElement(By.cssSelector("#reg_email")).sendKeys("ashu55@yopmail.com");
 
 		// Enter password in password textbox
 
