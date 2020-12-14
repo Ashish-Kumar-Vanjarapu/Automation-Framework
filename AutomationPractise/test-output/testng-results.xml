@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-10T17:56:42 IST" name="Default suite" finished-at="2020-12-10T17:59:07 IST" duration-ms="144506">
+  <suite started-at="2020-12-14T10:32:16 IST" name="Default suite" finished-at="2020-12-14T10:32:57 IST" duration-ms="40508">
     <groups>
     </groups>
-    <test started-at="2020-12-10T17:56:42 IST" name="Default test" finished-at="2020-12-10T17:59:07 IST" duration-ms="144506">
-      <class name="POM.TestCase_6_EmptyEmailidandPassword">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:POM.TestCase_6_EmptyEmailidandPassword@75329a49]" started-at="2020-12-10T17:56:42 IST" name="Setup" finished-at="2020-12-10T17:57:35 IST" duration-ms="52394" status="PASS">
+    <test started-at="2020-12-14T10:32:16 IST" name="Default test" finished-at="2020-12-14T10:32:57 IST" duration-ms="40508">
+      <class name="TestNG_dataProperties.TestCase_6_EmptyEmailidandPassword">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestNG_dataProperties.TestCase_6_EmptyEmailidandPassword@1e802ef9]" started-at="2020-12-14T10:32:16 IST" name="Setup" finished-at="2020-12-14T10:32:45 IST" duration-ms="28279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="EmptyEmailidandPassword()[pri:0, instance:POM.TestCase_6_EmptyEmailidandPassword@75329a49]" started-at="2020-12-10T17:57:35 IST" name="EmptyEmailidandPassword" finished-at="2020-12-10T17:59:06 IST" duration-ms="91484" status="PASS">
+        <test-method signature="EmptyEmailidandPassword()[pri:0, instance:TestNG_dataProperties.TestCase_6_EmptyEmailidandPassword@1e802ef9]" started-at="2020-12-14T10:32:45 IST" name="EmptyEmailidandPassword" finished-at="2020-12-14T10:32:56 IST" duration-ms="11781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmptyEmailidandPassword -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:POM.TestCase_6_EmptyEmailidandPassword@75329a49]" started-at="2020-12-10T17:59:06 IST" name="TearDown" finished-at="2020-12-10T17:59:07 IST" duration-ms="513" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestNG_dataProperties.TestCase_6_EmptyEmailidandPassword@1e802ef9]" started-at="2020-12-14T10:32:56 IST" name="TearDown" finished-at="2020-12-14T10:32:57 IST" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- POM.TestCase_6_EmptyEmailidandPassword -->
+      </class> <!-- TestNG_dataProperties.TestCase_6_EmptyEmailidandPassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,4 +1,4 @@
-package POM;
+package MultipleClasses_dataProperties;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -6,22 +6,18 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import resources.Registerpage;
 
-public class TestCase_1_ValidEmailidandPassword {
-
+public class Testbase {
 	public WebDriver driver;
 	public Properties prop;
 
-	@BeforeTest
+	@BeforeMethod
 	public void Setup() throws IOException {
 		prop = new Properties();
 		String genericPath = System.getProperty("user.dir");
@@ -46,32 +42,9 @@ public class TestCase_1_ValidEmailidandPassword {
 		System.out.println(driver.getCurrentUrl());
 	}
 
-	@Test
-
-	public void ValidEmailandPassword() throws InterruptedException {
-
-		Registerpage r = new Registerpage(driver);
-		r.getmyaccount().click();
-		r.getemail().sendKeys(prop.getProperty("EmailAddress"));
-		r.getpassword().sendKeys(prop.getProperty("Password"));
-		Thread.sleep(5000);
-		r.getregistercard().click();
-		r.getregister().click();
-		String Actual = r.getdashboardmessage().getText();
-		String Expected = "edit your password and account details";
-		if (Actual.contains(Expected)) {
-			System.out.println("ValidEmailandPassword Testcase is passed");
-
-		} else {
-			System.out.println("ValidEmailandPassword Testcase is failed");
-		}
-	}
-
-// Close browser
-	@AfterTest
+	@AfterMethod
 	public void TearDown() {
 		driver.close();
 	}
-}
 
-//driver.findElement(By.xpath("//form[@class='register']/p[2]/input")).sendKeys(Keys.ENTER);
+}
