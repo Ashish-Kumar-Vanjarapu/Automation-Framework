@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POM.TestCase_1_ValidEmailidandPassword">
+      <class name="MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword">
         <methods>
+          <include name="TearDown"/>
           <include name="Setup"/>
           <include name="ValidEmailandPassword"/>
-          <include name="TearDown"/>
         </methods>
-      </class> <!-- POM.TestCase_1_ValidEmailidandPassword -->
+      </class> <!-- MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

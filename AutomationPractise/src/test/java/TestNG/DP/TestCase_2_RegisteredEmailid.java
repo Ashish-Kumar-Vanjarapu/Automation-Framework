@@ -24,7 +24,7 @@ public class TestCase_2_RegisteredEmailid {
 		prop = new Properties();
 		String genericPath = System.getProperty("user.dir");
 		System.out.println(genericPath);
-		FileInputStream file = new FileInputStream(genericPath + "\\src\\main\\java\\resources\\data.properties");
+		FileInputStream file = new FileInputStream(genericPath + "\\src\\main\\java\\resources\\data(TestNG.DP).properties");
 		prop.load(file);
 
 		if (prop.getProperty("browser").contains("Chrome")) {

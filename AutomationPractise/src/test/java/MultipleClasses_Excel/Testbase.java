@@ -1,8 +1,6 @@
-package MultipleClasses_dataProperties;
+package MultipleClasses_Excel;
 
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -13,34 +11,36 @@ import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Testbase {
+public class Testbase  {
 	public WebDriver driver;
-	public Properties prop;
 
 	@BeforeMethod
 	public void Setup() throws IOException {
-		prop = new Properties();
 		String genericPath = System.getProperty("user.dir");
-		System.out.println(genericPath);
-		FileInputStream file = new FileInputStream(genericPath + "\\src\\main\\java\\resources\\data(Multiple_classes).properties");
-		prop.load(file);
+		ExcelUtility er = new ExcelUtility(genericPath + "\\Utilities\\Excel.xlsx", "Sheet1");
+		
+		String browser = er.getCellDataString(1, 0);
 
-		if (prop.getProperty("browser").contains("Chrome")) {
+		if (browser.contains("Chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 
 		}
 
-		else if (prop.getProperty("browser").equals("Firefox")) {
+		else if (browser.equals("Firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		driver.get(prop.getProperty("websiteurl"));
+		
+		String URL = er.getCellDataString(1, 1);
+		
+		driver.get(URL);
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 	}
+
 
 	@AfterMethod
 	public void TearDown() {

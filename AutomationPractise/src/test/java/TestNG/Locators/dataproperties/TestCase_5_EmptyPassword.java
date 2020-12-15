@@ -24,7 +24,7 @@ public class TestCase_5_EmptyPassword {
 		prop = new Properties();
 		String genericPath = System.getProperty("user.dir");
 		System.out.println(genericPath);
-		FileInputStream file = new FileInputStream(genericPath + "\\src\\main\\java\\resources\\data1.properties");
+		FileInputStream file = new FileInputStream(genericPath + "\\src\\main\\java\\resources\\data(TestNG.Locators).properties");
 		prop.load(file);
 
 		if (prop.getProperty("browser").contains("Chrome")) {
