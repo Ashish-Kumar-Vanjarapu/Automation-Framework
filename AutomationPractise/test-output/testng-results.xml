@@ -1,25 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-15T12:41:02 IST" name="Default suite" finished-at="2020-12-15T12:42:03 IST" duration-ms="61370">
+  <suite started-at="2020-12-18T10:47:05 IST" name="Suite" finished-at="2020-12-18T10:53:15 IST" duration-ms="369207">
     <groups>
     </groups>
-    <test started-at="2020-12-15T12:41:02 IST" name="Default test" finished-at="2020-12-15T12:42:03 IST" duration-ms="61370">
-      <class name="MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword@1e802ef9]" started-at="2020-12-15T12:41:02 IST" name="Setup" finished-at="2020-12-15T12:41:37 IST" duration-ms="35028" status="PASS">
+    <test started-at="2020-12-18T10:47:05 IST" name="Test" finished-at="2020-12-18T10:53:15 IST" duration-ms="369207">
+      <class name="MultipleClasses_Excel.TestCase_4_EmptyEmailid">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MultipleClasses_Excel.TestCase_4_EmptyEmailid@59d016c9]" started-at="2020-12-18T10:51:16 IST" name="Setup" finished-at="2020-12-18T10:51:50 IST" duration-ms="34125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="ValidEmailandPassword()[pri:0, instance:MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword@1e802ef9]" started-at="2020-12-15T12:41:37 IST" name="ValidEmailandPassword" finished-at="2020-12-15T12:41:57 IST" duration-ms="19852" status="PASS">
+        <test-method signature="EmptyEmailid()[pri:0, instance:MultipleClasses_Excel.TestCase_4_EmptyEmailid@59d016c9]" started-at="2020-12-18T10:51:50 IST" name="EmptyEmailid" finished-at="2020-12-18T10:52:16 IST" duration-ms="26467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyEmailid -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:MultipleClasses_Excel.TestCase_4_EmptyEmailid@59d016c9]" started-at="2020-12-18T10:52:16 IST" name="TearDown" finished-at="2020-12-18T10:52:17 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- MultipleClasses_Excel.TestCase_4_EmptyEmailid -->
+      <class name="MultipleClasses_Excel.TestCase_3_InvalidEmailid">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MultipleClasses_Excel.TestCase_3_InvalidEmailid@4b5a5ed1]" started-at="2020-12-18T10:50:14 IST" name="Setup" finished-at="2020-12-18T10:50:58 IST" duration-ms="43910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="InvalidEmail()[pri:0, instance:MultipleClasses_Excel.TestCase_3_InvalidEmailid@4b5a5ed1]" started-at="2020-12-18T10:50:58 IST" name="InvalidEmail" finished-at="2020-12-18T10:51:15 IST" duration-ms="16998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidEmail -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:MultipleClasses_Excel.TestCase_3_InvalidEmailid@4b5a5ed1]" started-at="2020-12-18T10:51:15 IST" name="TearDown" finished-at="2020-12-18T10:51:16 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- MultipleClasses_Excel.TestCase_3_InvalidEmailid -->
+      <class name="MultipleClasses_Excel.TestCase_5_EmptyPassword">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MultipleClasses_Excel.TestCase_5_EmptyPassword@794cb805]" started-at="2020-12-18T10:49:20 IST" name="Setup" finished-at="2020-12-18T10:49:53 IST" duration-ms="33648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="EmptyPassword()[pri:0, instance:MultipleClasses_Excel.TestCase_5_EmptyPassword@794cb805]" started-at="2020-12-18T10:49:53 IST" name="EmptyPassword" finished-at="2020-12-18T10:50:14 IST" duration-ms="20476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyPassword -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:MultipleClasses_Excel.TestCase_5_EmptyPassword@794cb805]" started-at="2020-12-18T10:50:14 IST" name="TearDown" finished-at="2020-12-18T10:50:14 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- MultipleClasses_Excel.TestCase_5_EmptyPassword -->
+      <class name="MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword@1ed1993a]" started-at="2020-12-18T10:47:06 IST" name="Setup" finished-at="2020-12-18T10:47:52 IST" duration-ms="46939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidEmailandPassword()[pri:0, instance:MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword@1ed1993a]" started-at="2020-12-18T10:47:52 IST" name="ValidEmailandPassword" finished-at="2020-12-18T10:48:22 IST" duration-ms="29854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidEmailandPassword -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword@1e802ef9]" started-at="2020-12-15T12:41:57 IST" name="TearDown" finished-at="2020-12-15T12:42:03 IST" duration-ms="6362" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword@1ed1993a]" started-at="2020-12-18T10:48:22 IST" name="TearDown" finished-at="2020-12-18T10:48:23 IST" duration-ms="336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="MultipleClasses_Excel.TestCase_2_RegisteredEmailid">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MultipleClasses_Excel.TestCase_2_RegisteredEmailid@1f3f4916]" started-at="2020-12-18T10:48:23 IST" name="Setup" finished-at="2020-12-18T10:48:51 IST" duration-ms="27973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="RegisteredEmail()[pri:0, instance:MultipleClasses_Excel.TestCase_2_RegisteredEmailid@1f3f4916]" started-at="2020-12-18T10:48:51 IST" name="RegisteredEmail" finished-at="2020-12-18T10:49:19 IST" duration-ms="28350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredEmail -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:MultipleClasses_Excel.TestCase_2_RegisteredEmailid@1f3f4916]" started-at="2020-12-18T10:49:19 IST" name="TearDown" finished-at="2020-12-18T10:49:20 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- MultipleClasses_Excel.TestCase_2_RegisteredEmailid -->
+      <class name="MultipleClasses_Excel.TestCase_6_EmptyEmailidandPassword">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MultipleClasses_Excel.TestCase_6_EmptyEmailidandPassword@3cc2931c]" started-at="2020-12-18T10:52:17 IST" name="Setup" finished-at="2020-12-18T10:52:50 IST" duration-ms="33541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="EmptyEmailidandPassword()[pri:0, instance:MultipleClasses_Excel.TestCase_6_EmptyEmailidandPassword@3cc2931c]" started-at="2020-12-18T10:52:50 IST" name="EmptyEmailidandPassword" finished-at="2020-12-18T10:53:14 IST" duration-ms="23643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyEmailidandPassword -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:MultipleClasses_Excel.TestCase_6_EmptyEmailidandPassword@3cc2931c]" started-at="2020-12-18T10:53:14 IST" name="TearDown" finished-at="2020-12-18T10:53:15 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- MultipleClasses_Excel.TestCase_6_EmptyEmailidandPassword -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

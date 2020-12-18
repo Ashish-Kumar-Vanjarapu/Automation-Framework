@@ -2,5 +2,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+    <classes>
+      <class name="MultipleClasses_Excel.TestCase_1_ValidEmailidandPassword"/>
+      <class name="MultipleClasses_Excel.TestCase_2_RegisteredEmailid"/>
+      <class name="MultipleClasses_Excel.TestCase_5_EmptyPassword"/>
+      <class name="MultipleClasses_Excel.TestCase_3_InvalidEmailid"/>
+      <class name="MultipleClasses_Excel.TestCase_4_EmptyEmailid"/>
+      <class name="MultipleClasses_Excel.TestCase_6_EmptyEmailidandPassword"/>
+      
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
